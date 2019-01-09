@@ -14,6 +14,6 @@
  
  function deleteFromDriverByKey(driver, key) {
    newDriver = {...driver}
-   delete newDriver.key
+   delete newDriver[key]
    return newDriver
  }
