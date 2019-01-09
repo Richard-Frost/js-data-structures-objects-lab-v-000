@@ -2,7 +2,7 @@
  driver = {}
  
  function updateDriverWithKeyAndValue(driver, key, value) {
-   newDriver = {}
-   newDri
-   return driver;
+   newDriver = {...driver}
+   newDriver[key] = value
+   return newDriver;
  }
